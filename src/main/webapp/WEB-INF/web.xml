@@ -6,13 +6,8 @@
          version="3.1">
     <display-name>DisplayName</display-name>
 
-    <context-param>
-        <param-name>contextClass</param-name>
-        <param-value>org.springframework.web.context.support.AnnotationConfigWebApplicationContext</param-value>
-    </context-param>
-
     <listener>
-        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+        <listener-class>com.github.jvanheesch.SomeContextLoaderListener</listener-class>
     </listener>
 
 </web-app>
