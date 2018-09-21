@@ -8,6 +8,6 @@ public class SomeContextLoaderListener implements ServletContextListener {
     }
 
     public void contextDestroyed(ServletContextEvent event) {
-        SomeServletContextListener.log(event.getServletContext());
+        SomeClass.log(event.getServletContext());
     }
 }
