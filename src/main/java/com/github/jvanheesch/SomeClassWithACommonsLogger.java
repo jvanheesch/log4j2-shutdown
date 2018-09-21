@@ -6,7 +6,7 @@ import org.apache.commons.logging.LogFactory;
 public class SomeClassWithACommonsLogger {
     private static final Log LOGGER = LogFactory.getLog(SomeClassWithACommonsLogger.class);
 
-    public static void log() {
+    public static void someMethodThatLogsSomething() {
         LOGGER.error("@@@@@@@@@@@");
     }
 }
